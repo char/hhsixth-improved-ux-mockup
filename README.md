@@ -31,9 +31,9 @@ As this is a mockup site, the sign in/out feature is not functional, and is mere
 
 ### Serials:
 
-`0000000000`: Always return 'invalid'
-`0000000001`: Student 'Firstname Lastname (Student)'
-`0000000002`: Student 'Other Student (Student)'
+- `0000000000`: Always return 'invalid'
+- `0000000001`: Student 'Firstname Lastname (Student)'
+- `0000000002`: Student 'Other Student (Student)'
 
 Anything else should also return invalid.
 
