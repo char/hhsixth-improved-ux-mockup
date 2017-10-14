@@ -1,0 +1,46 @@
+.App {
+  padding-top: 10vh;
+  height: 90vh;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url("/copyrighted_assets/backgrounds/1.jpg");
+
+  transition: background-image 5s linear;
+
+  background-color: #777;
+}
+
+.App-content {
+  text-align: center;
+  color: #fff;
+
+  margin: 0vh 10vw;
+  padding: 8vh 10vw;
+
+  background-color: rgba(20, 20, 20, 0.75);
+}
+
+.App-header {
+  font-size: 1.5em;
+}
+
+.App-logo {
+  max-height: 15rem;
+  font-size: 16rem;
+  margin: 0;
+}
+
+.App-status-signed_in > * > .App-logo {
+  color: #33FF00;
+
+  margin-top: -5rem;
+  margin-bottom: 6rem;
+}
+
+.App-status-signed_out > * > .App-logo {
+  height: 15rem;
+  max-height: 15rem;
+}
