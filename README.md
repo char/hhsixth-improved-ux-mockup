@@ -37,3 +37,28 @@ As this is a mockup site, the sign in/out feature is not functional, and is mere
 
 Anything else should also return invalid.
 
+## Implementing
+
+The core place to change when implementing is `src/api/serial_api_handler.js` - The request() function will need to be changed to access a proper URL.
+
+request() expects a JSON output:
+
+```json
+{
+    "status": "invalid"
+}
+```
+
+```json
+{
+    "status": "signed_in",
+    "name": "Test Student (STUDENT)"
+}
+```
+
+```json
+{
+    "status": "signed_out",
+    "name": "Test Student (STUDENT)"
+}
+```
