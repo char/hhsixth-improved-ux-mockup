@@ -41,7 +41,7 @@ class App extends Component {
                         "counter": that.state.counter
                     });
                 }
-            }, 30000);
+            }, 5000);
         });
     }
 
